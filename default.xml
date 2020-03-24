@@ -1,14 +1,15 @@
 <manifest>
     <remote name="github" fetch="https://github.com/Juniper"></remote>
     <remote name="githubtf" fetch="https://github.com/tungstenfabric"></remote>
+    <remote name="githubccng" fetch="https://github.com/edwinpjacques"></remote>
     <default revision="refs/heads/master" remote="github"></default>
 	<project name="contrail-build" remote="github" revision="R2003" path="tools/build">
 			<copyfile src="SConstruct" dest="SConstruct"/>
 	</project>
-    <project name="contrail-controller" remote="github" revision="R2003" path="controller"></project>
+    <project name="contrail-controller" remote="githubccng" revision="contrail-config-ng" path="controller"></project>
     <project name="contrail-vrouter" remote="github" revision="R2003" path="vrouter"></project>
-    <project name="tf-third-party" remote="githubtf" revision="R2003" path="third_party"></project>
-    <project name="contrail-common" remote="github" revision="R2003" path="src/contrail-common"></project>
+    <project name="tf-third-party" remote="githubccng" revision="contrail-config-ng" path="third_party"></project>
+    <project name="contrail-common" remote="githubccng" revision="contrail-config-ng" path="src/contrail-common"></project>
     <project name="tf-analytics" remote="githubtf" revision="R2003" path="src/contrail-analytics"></project>
     <project name="contrail-api-client" remote="github" revision="R2003" path="src/contrail-api-client"></project>
     <project name="contrail-packages" remote="github" revision="R2003" path="tools/packages"></project>
