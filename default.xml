@@ -29,7 +29,7 @@
     <project name="contrail-vrouter-java-api" remote="github" revision="R2003" path="vrouter-java-api"></project>
     <project name="contrail-vro-plugin" remote="github" revision="R2003" path="vro-plugin"></project>
     <project name="contrail-dpdk" remote="github" revision="contrail_dpdk_18_05_1" path="third_party/dpdk"></project>
-    <project name="contrail-specs" remote="github" revision="master" path="contrail-specs"></project>
+    <project name="contrail-specs" remote="githubccng" revision="contrail-config-ng" path="contrail-specs"></project>
     <project name="contrail-test" remote="github" revision="R2003" path="third_party/contrail-test"></project>
     <project name="contrail-container-builder" remote="github" revision="R2003" path="contrail-container-builder"></project>
     <project name="contrail-deployers-containers" remote="github" revision="R2003" path="contrail-deployers-containers"></project>
