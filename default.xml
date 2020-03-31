@@ -3,15 +3,15 @@
     <remote name="githubtf" fetch="https://github.com/tungstenfabric"></remote>
     <remote name="githubccng" fetch="https://github.com/edwinpjacques"></remote>
     <default revision="refs/heads/master" remote="github"></default>
-	<project name="contrail-build" remote="github" revision="R2003" path="tools/build">
+	<project name="contrail-build" remote="githubccng" revision="contrail-config-ng" path="tools/build">
 			<copyfile src="SConstruct" dest="SConstruct"/>
 	</project>
     <project name="contrail-controller" remote="githubccng" revision="contrail-config-ng" path="controller"></project>
     <project name="contrail-vrouter" remote="github" revision="R2003" path="vrouter"></project>
     <project name="tf-third-party" remote="githubccng" revision="contrail-config-ng" path="third_party"></project>
     <project name="contrail-common" remote="githubccng" revision="contrail-config-ng" path="src/contrail-common"></project>
-    <project name="tf-analytics" remote="githubtf" revision="R2003" path="src/contrail-analytics"></project>
-    <project name="contrail-api-client" remote="github" revision="R2003" path="src/contrail-api-client"></project>
+    <project name="tf-analytics" remote="githubccng" revision="contrail-config-ng" path="src/contrail-analytics"></project>
+    <project name="contrail-api-client" remote="githubccng" revision="contrail-config-ng" path="src/contrail-api-client"></project>
     <project name="contrail-packages" remote="github" revision="R2003" path="tools/packages"></project>
     <project name="contrail-nova-vif-driver" remote="github" revision="R2003" path="openstack/nova_contrail_vif"></project>
     <project name="contrail-neutron-plugin" remote="github" revision="R2003" path="openstack/neutron_plugin"></project>
