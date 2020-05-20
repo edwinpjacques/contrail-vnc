@@ -7,7 +7,7 @@
 			<copyfile src="SConstruct" dest="SConstruct"/>
 	</project>
     <project name="contrail-controller" remote="githubccng" revision="contrail-config-ng" path="controller"></project>
-    <project name="contrail-vrouter" remote="githubccng" revision="contrail-config-ng" path="vrouter"></project>
+    <project name="contrail-vrouter" remote="github" revision="R2003" path="vrouter"></project>
     <project name="tf-third-party" remote="githubccng" revision="contrail-config-ng" path="third_party"></project>
     <project name="contrail-common" remote="githubccng" revision="contrail-config-ng" path="src/contrail-common"></project>
     <project name="tf-analytics" remote="githubccng" revision="contrail-config-ng" path="src/contrail-analytics"></project>
